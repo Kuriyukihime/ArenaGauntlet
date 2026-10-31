@@ -1,3 +1,10 @@
+## 1.0.3
+
+- **ArenaGauntlet has moved to GitHub.** This is the last update posted on Thunderstore. New versions will be at github.com/Kuriyukihime/ArenaGauntlet/releases.
+  - To get notified, click **Watch → Custom → Releases** on that page.
+  - To install a new version, import its ZIP in your mod manager (r2modman: Settings → Import local mod).
+- Updating from Thunderstore? 1.0.2's multiplayer fixes below are new to you too.
+
 ## 1.0.2
 
 - **Steadier multiplayer.** Fixes from a full audit of the host-to-client connection.

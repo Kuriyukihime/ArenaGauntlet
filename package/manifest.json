@@ -1,8 +1,8 @@
 {
   "name": "ArenaGauntlet",
-  "version_number": "1.0.2",
+  "version_number": "1.0.3",
   "website_url": "https://github.com/Kuriyukihime/ArenaGauntlet",
-  "description": "Fight ten escalating rounds of hordes and champions in a Greek colosseum. Hire allied war companies, gear up at the arena merchants between battles, and face Mithrix in the final showdown.",
+  "description": "Moved to GitHub: future updates at github.com/Kuriyukihime/ArenaGauntlet. Fight ten escalating rounds of hordes and champions in a Greek colosseum, hire war companies and face Mithrix.",
   "dependencies": [
     "bbepis-BepInExPack-5.4.2121",
     "RiskofThunder-RoR2BepInExPack-1.49.0",

@@ -1,5 +1,7 @@
 # ArenaGauntlet
 
+> **ArenaGauntlet has moved to GitHub.** 1.0.3 is the last update posted on Thunderstore. New versions will be at https://github.com/Kuriyukihime/ArenaGauntlet/releases. To get notified, click **Watch → Custom → Releases** on that page. To install a new version, import its ZIP in your mod manager (r2modman: Settings → Import local mod).
+
 **Requires Survivors of the Void to host. Other expansions are optional.**
 
 Survive ten rounds in a Greek stone colosseum, recruit allied companies, and build your survivor between battles. Each round brings a mixed horde followed by champions. Collect your clear reward, visit the south-gate merchants, and ready up for the next fight. The entire gauntlet takes place in the same arena.

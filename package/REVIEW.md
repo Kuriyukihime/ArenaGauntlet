@@ -1,4 +1,4 @@
-# ArenaGauntlet 1.0.2 review notes
+# ArenaGauntlet 1.0.3 review notes
 
 Arena Career adds Armory, Barracks, Patronage and six optional Ascensions. Standard retains the existing ten rounds, horde population caps, gold rewards, prices and company damage. Career choices apply at run entry; the menu appears only on ArenaGauntlet survivor selection. MetaMarket rewards can stack.
 

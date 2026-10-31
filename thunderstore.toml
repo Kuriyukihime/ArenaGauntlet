@@ -5,8 +5,8 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "Kuriyukihime"
 name = "ArenaGauntlet"
-versionNumber = "1.0.2"
-description = "Fight ten escalating rounds of hordes and champions in a Greek colosseum. Hire allied war companies, gear up at the arena merchants between battles, and face Mithrix in the final showdown."
+versionNumber = "1.0.3"
+description = "Moved to GitHub: future updates at github.com/Kuriyukihime/ArenaGauntlet. Fight ten escalating rounds of hordes and champions in a Greek colosseum, hire war companies and face Mithrix."
 websiteUrl = "https://github.com/Kuriyukihime/ArenaGauntlet"
 containsNsfwContent = false
 

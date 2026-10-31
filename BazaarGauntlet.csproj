@@ -5,7 +5,7 @@
     <Nullable>disable</Nullable>
     <AssemblyName>ArenaGauntlet</AssemblyName>
     <RootNamespace>BazaarGauntlet</RootNamespace>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <Deterministic>true</Deterministic>
     <GameRoot Condition="'$(GameRoot)' == ''">X:\SteamLibrary\steamapps\common\Risk of Rain 2</GameRoot>

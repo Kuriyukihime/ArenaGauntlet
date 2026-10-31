@@ -19,7 +19,7 @@ namespace BazaarGauntlet
         // Preserve the plugin identity so existing config and duplicate-plugin detection carry over.
         internal const string Guid = "Kuriyukihime.BazaarGauntlet";
         internal const string Name = "ArenaGauntlet";
-        internal const string Version = "1.0.2";
+        internal const string Version = "1.0.3";
         internal static ManualLogSource Log;
         private void Awake()
         {
