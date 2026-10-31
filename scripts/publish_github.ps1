@@ -5,6 +5,8 @@ $ErrorActionPreference='Stop'
 $root=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 Push-Location -LiteralPath $root
 try {
+    # Refresh the GitHub front page; if it changed, the clean-tree check below stops until it is committed.
+    & (Join-Path $PSScriptRoot 'github_readme.ps1')
     $manifest=Get-Content -LiteralPath 'package/manifest.json' -Raw | ConvertFrom-Json
     $name=$manifest.name;$version=$manifest.version_number;$tag='v'+$version
     $zip=Join-Path $root ('dist/'+$name+'-'+$version+'.zip')

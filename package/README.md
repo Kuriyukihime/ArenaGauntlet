@@ -8,7 +8,7 @@ Survive ten rounds in a Greek stone colosseum, recruit allied companies, and bui
 
 ## How to play
 
-1. Install through Thunderstore and select **ArenaGauntlet** in the game-mode menu. Everyone in multiplayer needs the same version.
+1. Install the mod and its dependencies, then select **ArenaGauntlet** in the game-mode menu. Everyone in multiplayer needs the same version.
 2. Choose your survivor and difficulty. Open **Arena Career** on this selection screen to spend Glory, prepare starting gear and view Ascension. This menu is only available while selecting ArenaGauntlet.
 3. Each player begins with **three random white or green items**, replaced or expanded by their Armory loadout. The notification **Starting items have been granted!** confirms arrival rewards. The opening battle starts automatically after the party arrives.
 4. Defeat the horde and its champions. After each clear, merchants open, dead teammates return, and the combat clock pauses. In multiplayer, loot is personal: each drop belongs to one player, and only they can see and pick it up.
