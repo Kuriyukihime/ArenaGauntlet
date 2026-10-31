@@ -1,0 +1,1744 @@
+{
+  "schema": 1,
+  "authoring": "scripts/build_arena_cosmetics.py",
+  "originalArt": true,
+  "Skins": [
+    {
+      "Id": "gilded",
+      "Name": "Gilded Basalt",
+      "Surfaces": [
+        {
+          "Name": "limestone",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.19
+        },
+        {
+          "Name": "marble",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.34
+        },
+        {
+          "Name": "paving",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.19
+        },
+        {
+          "Name": "basalt",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.23
+        },
+        {
+          "Name": "roofstone",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.17
+        },
+        {
+          "Name": "accent",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.48
+        },
+        {
+          "Name": "cloth",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.055
+        },
+        {
+          "Name": "ember",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.1
+        },
+        {
+          "Name": "moss",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.035
+        },
+        {
+          "Name": "grass",
+          "R": 0.63,
+          "G": 0.65,
+          "B": 0.45,
+          "Smoothness": 0.025
+        }
+      ]
+    },
+    {
+      "Id": "lunar",
+      "Name": "Moonlit Sanctuary",
+      "Surfaces": [
+        {
+          "Name": "limestone",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.18
+        },
+        {
+          "Name": "marble",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.33
+        },
+        {
+          "Name": "paving",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.22
+        },
+        {
+          "Name": "basalt",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.2
+        },
+        {
+          "Name": "roofstone",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.17
+        },
+        {
+          "Name": "accent",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.48
+        },
+        {
+          "Name": "cloth",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.055
+        },
+        {
+          "Name": "ember",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.1
+        },
+        {
+          "Name": "moss",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.035
+        },
+        {
+          "Name": "grass",
+          "R": 0.66,
+          "G": 0.77,
+          "B": 0.84,
+          "Smoothness": 0.025
+        }
+      ]
+    },
+    {
+      "Id": "ruins",
+      "Name": "Overgrown Ruins",
+      "Surfaces": [
+        {
+          "Name": "limestone",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.08
+        },
+        {
+          "Name": "marble",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.13
+        },
+        {
+          "Name": "paving",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.07
+        },
+        {
+          "Name": "basalt",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.08
+        },
+        {
+          "Name": "roofstone",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.08
+        },
+        {
+          "Name": "accent",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.23
+        },
+        {
+          "Name": "cloth",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.055
+        },
+        {
+          "Name": "ember",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.1
+        },
+        {
+          "Name": "moss",
+          "R": 1,
+          "G": 1,
+          "B": 1,
+          "Smoothness": 0.035
+        },
+        {
+          "Name": "grass",
+          "R": 0.74,
+          "G": 0.88,
+          "B": 0.6,
+          "Smoothness": 0.025
+        }
+      ]
+    }
+  ],
+  "Decor": [
+    {
+      "Id": "sentinels",
+      "Name": "Arena Guardians",
+      "Surfaces": []
+    },
+    {
+      "Id": "standards",
+      "Name": "Champion Standards",
+      "Surfaces": []
+    },
+    {
+      "Id": "braziers",
+      "Name": "Victory Braziers",
+      "Surfaces": []
+    },
+    {
+      "Id": "trophies",
+      "Name": "Victors Gallery",
+      "Surfaces": []
+    },
+    {
+      "Id": "laurels",
+      "Name": "Laurels of Renown",
+      "Surfaces": []
+    }
+  ],
+  "artOnly": true,
+  "integratedInGame": false,
+  "defaultArenaSha256": "06e6ffe92c5b0f8a79b46c2e7d90784237d5f96fee45e782ea8890093810fbb2",
+  "defaultAssets": {
+    "arena_basalt.png": "6e989568c5a2a37579cf08cfc405a13328129aa4a278d6ae27065ae59ccd4816",
+    "arena_basalt_normal.png": "22ecea68cc3f69b5c66436dfc527421850accdebbc278232598092143f806543",
+    "arena_limestone.png": "5ebb6331cd14dbfc45665f40cbdc258911e90f881a99cffdb1032543b5a5c6db",
+    "arena_limestone_normal.png": "9596f4d940acf6d8c00b8a8b00d5156a5d5445f90ddfa4ef5f05c8b074f88717",
+    "arena_marble.png": "3c2645cd226f7c0c0f3fb534451f3dca56fc79afb5cb393d468b98d3ea2ade3b",
+    "arena_marble_normal.png": "9e61547e4cf828aa564c11a1ec16beb813c70698e72756439ed6952e33ad6b79",
+    "arena_paving.png": "4d41bbd54349bc85040da71577ba43602cc044f94a3395ec4d3ffa0410675ef1",
+    "arena_paving_normal.png": "baaf34454657c7a0ef9e6e7d83a0c4243721c871af2901d372bacd6ef97a0bce",
+    "arena_roofstone.png": "9d4499abc482f185a9346a4bc781e6e7b42f465ce22a77c853c459fba184bd39",
+    "arena_roofstone_normal.png": "61f79e565d1989a5c7e13c00bab8cb7ed1af1aa8db952ed0211f8fe9a10c45b7",
+    "colosseum-info.json": "4c34c806036fd2793558919a10beef587713e9f9a9dc1e135f7dc8e707007bc8",
+    "colosseum.meshbin": "06e6ffe92c5b0f8a79b46c2e7d90784237d5f96fee45e782ea8890093810fbb2"
+  },
+  "themes": [
+    {
+      "id": "gilded",
+      "name": "Gilded Basalt",
+      "description": "Charcoal basalt, champagne stone and gilded bronze; a laurel-star court.",
+      "seed": 20261061,
+      "floorName": "Laurel of Victory",
+      "materials": {
+        "limestone": {
+          "albedo": "arena_gilded_limestone.png",
+          "normal": "arena_limestone_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.19,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "marble": {
+          "albedo": "arena_gilded_marble.png",
+          "normal": "arena_marble_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.34,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "paving": {
+          "albedo": "arena_gilded_paving.png",
+          "normal": "arena_paving_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.19,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "basalt": {
+          "albedo": "arena_gilded_basalt.png",
+          "normal": "arena_basalt_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.23,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "roofstone": {
+          "albedo": "arena_gilded_roofstone.png",
+          "normal": "arena_roofstone_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.17,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "accent": {
+          "albedo": "arena_gilded_accent.png",
+          "normal": "arena_accent_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.48,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "cloth": {
+          "albedo": "arena_gilded_cloth.png",
+          "normal": "arena_cloth_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.055,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "ember": {
+          "albedo": "arena_ember.png",
+          "normal": "arena_ember_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.1,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "moss": {
+          "albedo": "arena_moss.png",
+          "normal": "arena_moss_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.035,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        }
+      },
+      "floor": {
+        "file": "arena_gilded_floor.meshbin",
+        "bytes": 358045,
+        "sha256": "a815e1749ac47b287ffa0c779b33f90d779da26a211945a28f86d776573c2e69",
+        "parts": [
+          {
+            "name": "DecorFloorGilded-paving",
+            "group": "DecorFloorGilded",
+            "material": "paving",
+            "vertices": 386,
+            "triangles": 384,
+            "bounds": [
+              [
+                -178.85000610351562,
+                0.03999999910593033,
+                -178.85000610351562
+              ],
+              [
+                178.85000610351562,
+                0.03999999910593033,
+                178.85000610351562
+              ]
+            ],
+            "minimumRadius": 0.0
+          },
+          {
+            "name": "DecorFloorGilded-basalt",
+            "group": "DecorFloorGilded",
+            "material": "basalt",
+            "vertices": 1156,
+            "triangles": 1152,
+            "bounds": [
+              [
+                -177.1999969482422,
+                0.04800000041723251,
+                -177.1999969482422
+              ],
+              [
+                177.1999969482422,
+                0.04899999871850014,
+                177.1999969482422
+              ]
+            ],
+            "minimumRadius": 0.0
+          },
+          {
+            "name": "DecorFloorGilded-marble",
+            "group": "DecorFloorGilded",
+            "material": "marble",
+            "vertices": 1852,
+            "triangles": 1824,
+            "bounds": [
+              [
+                -178.6999969482422,
+                0.050999999046325684,
+                -178.6999969482422
+              ],
+              [
+                178.6999969482422,
+                0.05299999937415123,
+                178.6999969482422
+              ]
+            ],
+            "minimumRadius": 47.999996185302734
+          },
+          {
+            "name": "DecorFloorGilded-accent",
+            "group": "DecorFloorGilded",
+            "material": "accent",
+            "vertices": 4971,
+            "triangles": 4144,
+            "bounds": [
+              [
+                -172.25999450683594,
+                0.05700000002980232,
+                -172.25999450683594
+              ],
+              [
+                172.25999450683594,
+                0.05999999865889549,
+                172.25999450683594
+              ]
+            ],
+            "minimumRadius": 0.0
+          }
+        ],
+        "triangles": 7504,
+        "vertices": 8365
+      },
+      "uniqueAlbedoBytes": 2385844,
+      "grassTint": [
+        0.63,
+        0.65,
+        0.45
+      ]
+    },
+    {
+      "id": "lunar",
+      "name": "Moonlit Sanctuary",
+      "description": "Cool marble, midnight stone and silver; a crescent and constellation court.",
+      "seed": 20261097,
+      "floorName": "Court of Selene",
+      "materials": {
+        "limestone": {
+          "albedo": "arena_lunar_limestone.png",
+          "normal": "arena_limestone_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.18,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "marble": {
+          "albedo": "arena_lunar_marble.png",
+          "normal": "arena_marble_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.33,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "paving": {
+          "albedo": "arena_lunar_paving.png",
+          "normal": "arena_paving_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.22,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "basalt": {
+          "albedo": "arena_lunar_basalt.png",
+          "normal": "arena_basalt_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.2,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "roofstone": {
+          "albedo": "arena_lunar_roofstone.png",
+          "normal": "arena_roofstone_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.17,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "accent": {
+          "albedo": "arena_lunar_accent.png",
+          "normal": "arena_accent_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.48,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "cloth": {
+          "albedo": "arena_lunar_cloth.png",
+          "normal": "arena_cloth_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.055,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "ember": {
+          "albedo": "arena_ember.png",
+          "normal": "arena_ember_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.1,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "moss": {
+          "albedo": "arena_moss.png",
+          "normal": "arena_moss_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.035,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        }
+      },
+      "floor": {
+        "file": "arena_lunar_floor.meshbin",
+        "bytes": 361249,
+        "sha256": "31554e569f43962af59c52cde5b30d1e46a837a8d5af34ce6d55b6e88088c2ff",
+        "parts": [
+          {
+            "name": "DecorFloorLunar-paving",
+            "group": "DecorFloorLunar",
+            "material": "paving",
+            "vertices": 386,
+            "triangles": 384,
+            "bounds": [
+              [
+                -178.85000610351562,
+                0.03999999910593033,
+                -178.85000610351562
+              ],
+              [
+                178.85000610351562,
+                0.03999999910593033,
+                178.85000610351562
+              ]
+            ],
+            "minimumRadius": 0.0
+          },
+          {
+            "name": "DecorFloorLunar-basalt",
+            "group": "DecorFloorLunar",
+            "material": "basalt",
+            "vertices": 1156,
+            "triangles": 1152,
+            "bounds": [
+              [
+                -177.1999969482422,
+                0.04699999839067459,
+                -177.1999969482422
+              ],
+              [
+                177.1999969482422,
+                0.04899999871850014,
+                177.1999969482422
+              ]
+            ],
+            "minimumRadius": 0.0
+          },
+          {
+            "name": "DecorFloorLunar-marble",
+            "group": "DecorFloorLunar",
+            "material": "marble",
+            "vertices": 6022,
+            "triangles": 5246,
+            "bounds": [
+              [
+                -178.6999969482422,
+                0.050999999046325684,
+                -178.6999969482422
+              ],
+              [
+                178.6999969482422,
+                0.05999999865889549,
+                178.6999969482422
+              ]
+            ],
+            "minimumRadius": 20.0
+          },
+          {
+            "name": "DecorFloorLunar-accent",
+            "group": "DecorFloorLunar",
+            "material": "accent",
+            "vertices": 866,
+            "triangles": 816,
+            "bounds": [
+              [
+                -96.50664520263672,
+                0.05299999937415123,
+                -110.33378601074219
+              ],
+              [
+                109.78367614746094,
+                0.05999999865889549,
+                98.4699935913086
+              ]
+            ],
+            "minimumRadius": 46.79999542236328
+          }
+        ],
+        "triangles": 7598,
+        "vertices": 8430
+      },
+      "uniqueAlbedoBytes": 2725791,
+      "grassTint": [
+        0.66,
+        0.77,
+        0.84
+      ]
+    },
+    {
+      "id": "ruins",
+      "name": "Overgrown Ruins",
+      "description": "Sun-worn limestone, bronze patina and moss; a fragmented old victory mosaic.",
+      "seed": 20261131,
+      "floorName": "Forgotten Laurels",
+      "materials": {
+        "limestone": {
+          "albedo": "arena_ruins_limestone.png",
+          "normal": "arena_limestone_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.08,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "marble": {
+          "albedo": "arena_ruins_marble.png",
+          "normal": "arena_marble_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.13,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "paving": {
+          "albedo": "arena_ruins_paving.png",
+          "normal": "arena_paving_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.07,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "basalt": {
+          "albedo": "arena_ruins_basalt.png",
+          "normal": "arena_basalt_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.08,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "roofstone": {
+          "albedo": "arena_ruins_roofstone.png",
+          "normal": "arena_roofstone_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.08,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "accent": {
+          "albedo": "arena_ruins_accent.png",
+          "normal": "arena_accent_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.23,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "cloth": {
+          "albedo": "arena_ruins_cloth.png",
+          "normal": "arena_cloth_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.055,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "ember": {
+          "albedo": "arena_ember.png",
+          "normal": "arena_ember_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.1,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        },
+        "moss": {
+          "albedo": "arena_moss.png",
+          "normal": "arena_moss_normal.png",
+          "tint": [
+            1,
+            1,
+            1
+          ],
+          "smoothness": 0.035,
+          "glow": 0,
+          "normalStrength": 0.45,
+          "sharedNormal": true
+        }
+      },
+      "floor": {
+        "file": "arena_ruins_floor.meshbin",
+        "bytes": 241264,
+        "sha256": "a47d6559714ef214d36295c0be85fbfc708f919482859d4a62f08e3b7cf3744f",
+        "parts": [
+          {
+            "name": "DecorFloorRuins-paving",
+            "group": "DecorFloorRuins",
+            "material": "paving",
+            "vertices": 386,
+            "triangles": 384,
+            "bounds": [
+              [
+                -178.85000610351562,
+                0.03999999910593033,
+                -178.85000610351562
+              ],
+              [
+                178.85000610351562,
+                0.03999999910593033,
+                178.85000610351562
+              ]
+            ],
+            "minimumRadius": 0.0
+          },
+          {
+            "name": "DecorFloorRuins-basalt",
+            "group": "DecorFloorRuins",
+            "material": "basalt",
+            "vertices": 1394,
+            "triangles": 1236,
+            "bounds": [
+              [
+                -177.1999969482422,
+                0.04899999871850014,
+                -177.1999969482422
+              ],
+              [
+                177.1999969482422,
+                0.05299999937415123,
+                177.1999969482422
+              ]
+            ],
+            "minimumRadius": 170.0
+          },
+          {
+            "name": "DecorFloorRuins-marble",
+            "group": "DecorFloorRuins",
+            "material": "marble",
+            "vertices": 2044,
+            "triangles": 2016,
+            "bounds": [
+              [
+                -178.6999969482422,
+                0.050999999046325684,
+                -178.6999969482422
+              ],
+              [
+                178.6999969482422,
+                0.05299999937415123,
+                178.6999969482422
+              ]
+            ],
+            "minimumRadius": 43.999996185302734
+          },
+          {
+            "name": "DecorFloorRuins-accent",
+            "group": "DecorFloorRuins",
+            "material": "accent",
+            "vertices": 1224,
+            "triangles": 1152,
+            "bounds": [
+              [
+                -54.50551986694336,
+                0.0560000017285347,
+                -54.50551986694336
+              ],
+              [
+                54.50551986694336,
+                0.05999999865889549,
+                54.50551986694336
+              ]
+            ],
+            "minimumRadius": 46.999996185302734
+          },
+          {
+            "name": "DecorFloorRuins-moss",
+            "group": "DecorFloorRuins",
+            "material": "moss",
+            "vertices": 504,
+            "triangles": 480,
+            "bounds": [
+              [
+                -166.1656951904297,
+                0.05000000074505806,
+                -166.1656951904297
+              ],
+              [
+                166.1656951904297,
+                0.05000000074505806,
+                166.1656951904297
+              ]
+            ],
+            "minimumRadius": 124.99999237060547
+          }
+        ],
+        "triangles": 5268,
+        "vertices": 5552
+      },
+      "uniqueAlbedoBytes": 5175039,
+      "grassTint": [
+        0.74,
+        0.88,
+        0.6
+      ]
+    }
+  ],
+  "defaultDecorationMaterials": {
+    "limestone": {
+      "albedo": "arena_limestone.png",
+      "normal": "arena_limestone_normal.png",
+      "tint": [
+        1,
+        0.98,
+        0.93
+      ],
+      "smoothness": 0.12,
+      "glow": 0,
+      "normalStrength": 0.45,
+      "sharedNormal": true
+    },
+    "marble": {
+      "albedo": "arena_marble.png",
+      "normal": "arena_marble_normal.png",
+      "tint": [
+        1,
+        1,
+        0.98
+      ],
+      "smoothness": 0.21,
+      "glow": 0,
+      "normalStrength": 0.45,
+      "sharedNormal": true
+    },
+    "paving": {
+      "albedo": "arena_paving.png",
+      "normal": "arena_paving_normal.png",
+      "tint": [
+        1,
+        0.98,
+        0.93
+      ],
+      "smoothness": 0.09,
+      "glow": 0,
+      "normalStrength": 0.45,
+      "sharedNormal": true
+    },
+    "basalt": {
+      "albedo": "arena_basalt.png",
+      "normal": "arena_basalt_normal.png",
+      "tint": [
+        0.85,
+        0.9,
+        0.88
+      ],
+      "smoothness": 0.11,
+      "glow": 0,
+      "normalStrength": 0.45,
+      "sharedNormal": true
+    },
+    "roofstone": {
+      "albedo": "arena_roofstone.png",
+      "normal": "arena_roofstone_normal.png",
+      "tint": [
+        1,
+        0.98,
+        0.94
+      ],
+      "smoothness": 0.13,
+      "glow": 0,
+      "normalStrength": 0.45,
+      "sharedNormal": true
+    },
+    "accent": {
+      "albedo": "arena_accent.png",
+      "normal": "arena_accent_normal.png",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.48,
+      "glow": 0,
+      "normalStrength": 0.45,
+      "sharedNormal": true
+    },
+    "cloth": {
+      "albedo": "arena_cloth.png",
+      "normal": "arena_cloth_normal.png",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.055,
+      "glow": 0,
+      "normalStrength": 0.45,
+      "sharedNormal": true
+    },
+    "ember": {
+      "albedo": "arena_ember.png",
+      "normal": "arena_ember_normal.png",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.1,
+      "glow": 0,
+      "normalStrength": 0.45,
+      "sharedNormal": true
+    },
+    "moss": {
+      "albedo": "arena_moss.png",
+      "normal": "arena_moss_normal.png",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.035,
+      "glow": 0,
+      "normalStrength": 0.45,
+      "sharedNormal": true
+    }
+  },
+  "decorations": {
+    "file": "arena_decor.meshbin",
+    "bytes": 15756710,
+    "sha256": "f3385a12e39088cd0208f68501fa6c383a95317c0c7031391a28a93eabc59316",
+    "parts": [
+      {
+        "name": "Decorsentinels-basalt",
+        "group": "Decorsentinels",
+        "material": "basalt",
+        "vertices": 896,
+        "triangles": 480,
+        "bounds": [
+          [
+            -131.455322265625,
+            2.8499999046325684,
+            -131.455322265625
+          ],
+          [
+            131.455322265625,
+            9.895000457763672,
+            131.455322265625
+          ]
+        ],
+        "minimumRadius": 180.4174041748047
+      },
+      {
+        "name": "Decorsentinels-marble",
+        "group": "Decorsentinels",
+        "material": "marble",
+        "vertices": 62028,
+        "triangles": 73600,
+        "bounds": [
+          [
+            -131.2889404296875,
+            3.180000066757202,
+            -131.2889404296875
+          ],
+          [
+            131.2889404296875,
+            13.0,
+            131.2889404296875
+          ]
+        ],
+        "minimumRadius": 180.490234375
+      },
+      {
+        "name": "Decorsentinels-limestone",
+        "group": "Decorsentinels",
+        "material": "limestone",
+        "vertices": 15808,
+        "triangles": 7920,
+        "bounds": [
+          [
+            -131.027587890625,
+            3.4100000858306885,
+            -131.027587890625
+          ],
+          [
+            131.027587890625,
+            8.699999809265137,
+            131.027587890625
+          ]
+        ],
+        "minimumRadius": 180.63751220703125
+      },
+      {
+        "name": "Decorsentinels-accent",
+        "group": "Decorsentinels",
+        "material": "accent",
+        "vertices": 45092,
+        "triangles": 30656,
+        "bounds": [
+          [
+            -129.6918182373047,
+            3.5299999713897705,
+            -129.6918182373047
+          ],
+          [
+            129.6918182373047,
+            11.899999618530273,
+            129.6918182373047
+          ]
+        ],
+        "minimumRadius": 180.37557983398438
+      },
+      {
+        "name": "Decorstandards-basalt",
+        "group": "Decorstandards",
+        "material": "basalt",
+        "vertices": 4480,
+        "triangles": 2528,
+        "bounds": [
+          [
+            -176.94447326660156,
+            2.8499999046325684,
+            -166.4444580078125
+          ],
+          [
+            176.94447326660156,
+            3.450000047683716,
+            176.94447326660156
+          ]
+        ],
+        "minimumRadius": 181.212158203125
+      },
+      {
+        "name": "Decorstandards-accent",
+        "group": "Decorstandards",
+        "material": "accent",
+        "vertices": 27776,
+        "triangles": 15104,
+        "bounds": [
+          [
+            -176.4749298095703,
+            3.369999885559082,
+            -165.97467041015625
+          ],
+          [
+            176.4749298095703,
+            14.005000114440918,
+            176.4749298095703
+          ]
+        ],
+        "minimumRadius": 181.68212890625
+      },
+      {
+        "name": "Decorstandards-cloth",
+        "group": "Decorstandards",
+        "material": "cloth",
+        "vertices": 11088,
+        "triangles": 20480,
+        "bounds": [
+          [
+            -176.55043029785156,
+            5.920000076293945,
+            -165.99510192871094
+          ],
+          [
+            176.55043029785156,
+            12.270000457763672,
+            176.55043029785156
+          ]
+        ],
+        "minimumRadius": 181.65057373046875
+      },
+      {
+        "name": "Decorbraziers-basalt",
+        "group": "Decorbraziers",
+        "material": "basalt",
+        "vertices": 31488,
+        "triangles": 16864,
+        "bounds": [
+          [
+            -169.49368286132812,
+            2.8499999046325684,
+            -169.49368286132812
+          ],
+          [
+            169.49368286132812,
+            6.320000171661377,
+            169.49368286132812
+          ]
+        ],
+        "minimumRadius": 180.45999145507812
+      },
+      {
+        "name": "Decorbraziers-marble",
+        "group": "Decorbraziers",
+        "material": "marble",
+        "vertices": 14336,
+        "triangles": 7680,
+        "bounds": [
+          [
+            -168.8186798095703,
+            3.759999990463257,
+            -168.8186798095703
+          ],
+          [
+            168.8186798095703,
+            5.239999771118164,
+            168.8186798095703
+          ]
+        ],
+        "minimumRadius": 181.135009765625
+      },
+      {
+        "name": "Decorbraziers-accent",
+        "group": "Decorbraziers",
+        "material": "accent",
+        "vertices": 54272,
+        "triangles": 27616,
+        "bounds": [
+          [
+            -169.7036895751953,
+            5.429999828338623,
+            -169.7036895751953
+          ],
+          [
+            169.7036895751953,
+            6.590000152587891,
+            169.7036895751953
+          ]
+        ],
+        "minimumRadius": 180.25
+      },
+      {
+        "name": "Decorbraziers-ember",
+        "group": "Decorbraziers",
+        "material": "ember",
+        "vertices": 4928,
+        "triangles": 6400,
+        "bounds": [
+          [
+            -169.1075897216797,
+            6.164999961853027,
+            -169.1075897216797
+          ],
+          [
+            169.1075897216797,
+            6.235000133514404,
+            169.1075897216797
+          ]
+        ],
+        "minimumRadius": 180.62745666503906
+      },
+      {
+        "name": "Decortrophies-accent",
+        "group": "Decortrophies",
+        "material": "accent",
+        "vertices": 56240,
+        "triangles": 29080,
+        "bounds": [
+          [
+            -47.146751403808594,
+            1.899999976158142,
+            -189.5749969482422
+          ],
+          [
+            47.224998474121094,
+            3.3299999237060547,
+            -188.4250030517578
+          ]
+        ],
+        "minimumRadius": 188.43350219726562
+      },
+      {
+        "name": "Decortrophies-marble",
+        "group": "Decortrophies",
+        "material": "marble",
+        "vertices": 10800,
+        "triangles": 5420,
+        "bounds": [
+          [
+            -46.98099899291992,
+            2.049999952316284,
+            -189.5399932861328
+          ],
+          [
+            47.17499923706055,
+            2.6247498989105225,
+            -188.4600067138672
+          ]
+        ],
+        "minimumRadius": 188.46925354003906
+      },
+      {
+        "name": "Decortrophies-basalt",
+        "group": "Decortrophies",
+        "material": "basalt",
+        "vertices": 2160,
+        "triangles": 1240,
+        "bounds": [
+          [
+            -46.92250061035156,
+            1.7699999809265137,
+            -189.6750030517578
+          ],
+          [
+            47.32500076293945,
+            2.059999942779541,
+            -188.3249969482422
+          ]
+        ],
+        "minimumRadius": 188.33262634277344
+      },
+      {
+        "name": "Decorlaurels-basalt",
+        "group": "Decorlaurels",
+        "material": "basalt",
+        "vertices": 8064,
+        "triangles": 4560,
+        "bounds": [
+          [
+            -221.62660217285156,
+            30.760000228881836,
+            -221.62660217285156
+          ],
+          [
+            221.62660217285156,
+            33.2400016784668,
+            221.62660217285156
+          ]
+        ],
+        "minimumRadius": 228.9199981689453
+      },
+      {
+        "name": "Decorlaurels-accent",
+        "group": "Decorlaurels",
+        "material": "accent",
+        "vertices": 42048,
+        "triangles": 19344,
+        "bounds": [
+          [
+            -221.48672485351562,
+            30.69499969482422,
+            -221.48672485351562
+          ],
+          [
+            221.48672485351562,
+            33.47537612915039,
+            221.48672485351562
+          ]
+        ],
+        "minimumRadius": 228.62998962402344
+      }
+    ],
+    "triangles": 268972,
+    "vertices": 391504
+  },
+  "decorationSets": [
+    {
+      "id": "sentinels",
+      "name": "Arena Guardians",
+      "groupPrefix": "Decorsentinels",
+      "description": "Four carved hoplites with Corinthian crests, shields, spears and heavy stone drapery.",
+      "placements": [
+        [
+          128.62272349783302,
+          2.85,
+          128.62272349783302
+        ],
+        [
+          128.62272349783302,
+          2.85,
+          -128.622723497833
+        ],
+        [
+          -128.622723497833,
+          2.85,
+          -128.62272349783302
+        ],
+        [
+          -128.62272349783302,
+          2.85,
+          128.62272349783296
+        ]
+      ],
+      "collision": false,
+      "support": "Inner parapet at y=2.85, away from gates and radial aisles."
+    },
+    {
+      "id": "standards",
+      "name": "Champion Standards",
+      "groupPrefix": "Decorstandards",
+      "description": "Eight tall bronze standards with double-sided folded cloth and theme-specific embroidery.",
+      "placements": [
+        [
+          47.07918430414853,
+          2.85,
+          175.70190780198152
+        ],
+        [
+          175.70190780198152,
+          2.85,
+          47.07918430414853
+        ],
+        [
+          175.70190780198152,
+          2.85,
+          -47.07918430414854
+        ],
+        [
+          76.87426181063324,
+          2.85,
+          -164.85738646196663
+        ],
+        [
+          -76.8742618106332,
+          2.85,
+          -164.85738646196666
+        ],
+        [
+          -175.70190780198152,
+          2.85,
+          -47.079184304148505
+        ],
+        [
+          -175.70190780198155,
+          2.85,
+          47.07918430414844
+        ],
+        [
+          -47.07918430414851,
+          2.85,
+          175.70190780198152
+        ]
+      ],
+      "collision": false,
+      "support": "Inner parapet; no text labels or runtime cloth simulation."
+    },
+    {
+      "id": "braziers",
+      "name": "Victory Braziers",
+      "groupPrefix": "Decorbraziers",
+      "description": "Eight fluted stone pedestals, ribbed bronze bowls, handles and banked embers.",
+      "placements": [
+        [
+          69.61011634720984,
+          2.85,
+          168.05368696380307
+        ],
+        [
+          168.05368696380307,
+          2.85,
+          69.61011634720984
+        ],
+        [
+          168.05368696380307,
+          2.85,
+          -69.61011634720982
+        ],
+        [
+          69.61011634720985,
+          2.85,
+          -168.05368696380307
+        ],
+        [
+          -69.61011634720981,
+          2.85,
+          -168.05368696380307
+        ],
+        [
+          -168.05368696380307,
+          2.85,
+          -69.61011634720978
+        ],
+        [
+          -168.05368696380305,
+          2.85,
+          69.61011634720987
+        ],
+        [
+          -69.6101163472098,
+          2.85,
+          168.05368696380307
+        ]
+      ],
+      "optionalFireVfxAnchors": [
+        [
+          69.61011634720984,
+          6.45,
+          168.05368696380307
+        ],
+        [
+          168.05368696380307,
+          6.45,
+          69.61011634720984
+        ],
+        [
+          168.05368696380307,
+          6.45,
+          -69.61011634720982
+        ],
+        [
+          69.61011634720985,
+          6.45,
+          -168.05368696380307
+        ],
+        [
+          -69.61011634720981,
+          6.45,
+          -168.05368696380307
+        ],
+        [
+          -168.05368696380307,
+          6.45,
+          -69.61011634720978
+        ],
+        [
+          -168.05368696380305,
+          6.45,
+          69.61011634720987
+        ],
+        [
+          -69.6101163472098,
+          6.45,
+          168.05368696380307
+        ]
+      ],
+      "collision": false,
+      "support": "Inner parapet; ornamental, separate from the interactive Ready brazier."
+    },
+    {
+      "id": "trophies",
+      "name": "Victors Gallery",
+      "groupPrefix": "Decortrophies",
+      "description": "Five handled victory amphorae and five laurel crowns on the existing rear merchant shelves.",
+      "placements": [
+        [
+          -46.5,
+          1.9,
+          -189.0
+        ],
+        [
+          -41.5,
+          1.9,
+          -189.0
+        ],
+        [
+          -24.5,
+          1.9,
+          -189.0
+        ],
+        [
+          -19.5,
+          1.9,
+          -189.0
+        ],
+        [
+          -2.5,
+          1.9,
+          -189.0
+        ],
+        [
+          2.5,
+          1.9,
+          -189.0
+        ],
+        [
+          19.5,
+          1.9,
+          -189.0
+        ],
+        [
+          24.5,
+          1.9,
+          -189.0
+        ],
+        [
+          41.5,
+          1.9,
+          -189.0
+        ],
+        [
+          46.5,
+          1.9,
+          -189.0
+        ]
+      ],
+      "collision": false,
+      "support": "Rear shelves at z=-189; no terminals, doors or shopping lanes occupied."
+    },
+    {
+      "id": "laurels",
+      "name": "Laurels of Renown",
+      "groupPrefix": "Decorlaurels",
+      "description": "Twelve sculpted laurel-and-boss medallions attached to the inner peristyle frieze.",
+      "placements": [
+        [
+          59.27732589983032,
+          32.0,
+          221.22599199498532
+        ],
+        [
+          161.948666095155,
+          32.0,
+          161.948666095155
+        ],
+        [
+          221.22599199498532,
+          32.0,
+          59.27732589983032
+        ],
+        [
+          221.22599199498532,
+          32.0,
+          -59.27732589983035
+        ],
+        [
+          161.948666095155,
+          32.0,
+          -161.94866609515498
+        ],
+        [
+          59.27732589983039,
+          32.0,
+          -221.2259919949853
+        ],
+        [
+          -59.27732589983034,
+          32.0,
+          -221.22599199498532
+        ],
+        [
+          -161.94866609515498,
+          32.0,
+          -161.948666095155
+        ],
+        [
+          -221.22599199498532,
+          32.0,
+          -59.2773258998303
+        ],
+        [
+          -221.22599199498535,
+          32.0,
+          59.277325899830224
+        ],
+        [
+          -161.948666095155,
+          32.0,
+          161.94866609515495
+        ],
+        [
+          -59.27732589983031,
+          32.0,
+          221.22599199498532
+        ]
+      ],
+      "collision": false,
+      "support": "Facade-mounted at y=32; columns and circulation remain clear."
+    }
+  ],
+  "integration": {
+    "geometryFormat": "CAST1",
+    "normalPacking": "AG: R=255, G=Y, B=255, A=X",
+    "skinsAndDecorMatchCurrentLoader": true,
+    "floorsNeedLoaderSupport": true,
+    "floorCollision": false,
+    "floorOverlayHeight": [
+      0.04,
+      0.064
+    ],
+    "floorRenderAfterBase": true,
+    "defaultArenaChangesRequired": false,
+    "combatRadius": 178,
+    "readyBrazier": [
+      0,
+      0,
+      -171
+    ],
+    "decorGroupPrefix": "Decor",
+    "notes": [
+      "Load only the selected skin floor; all new floor meshes are visual-only.",
+      "Keep default colosseum and its collision/navmesh intact.",
+      "Skins/Decor use Claude's case-sensitive runtime catalog schema; extra fields are authoring metadata.",
+      "Five stone normals are reused through the loader's existing filename fallback.",
+      "Decoration sets are independent group-prefix toggles; no animation or text labels.",
+      "Brazier fire VFX are optional integration anchors, not included game code."
+    ]
+  }
+}

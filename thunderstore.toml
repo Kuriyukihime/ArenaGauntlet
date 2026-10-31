@@ -1,0 +1,52 @@
+# Generated from package/manifest.json. Preparation only; no upload is performed.
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "Kuriyukihime"
+name = "ArenaGauntlet"
+versionNumber = "1.0.2"
+description = "Fight ten escalating rounds of hordes and champions in a Greek colosseum. Hire allied war companies, gear up at the arena merchants between battles, and face Mithrix in the final showdown."
+websiteUrl = "https://github.com/Kuriyukihime/ArenaGauntlet"
+containsNsfwContent = false
+
+[package.dependencies]
+"bbepis-BepInExPack" = "5.4.2121"
+"RiskofThunder-RoR2BepInExPack" = "1.49.0"
+"RiskofThunder-HookGenPatcher" = "1.2.9"
+"RiskofThunder-R2API_Core" = "5.3.0"
+"RiskofThunder-R2API_ContentManagement" = "1.1.0"
+"RiskofThunder-R2API_Prefab" = "1.1.1"
+"RiskofThunder-R2API_Language" = "1.1.0"
+"RiskofThunder-R2API_Networking" = "1.0.4"
+"RiskofThunder-R2API_RecalculateStats" = "1.7.0"
+"Rune580-Risk_Of_Options" = "2.8.6"
+
+[build]
+icon = "package/icon.png"
+readme = "package/README.md"
+outdir = ".build/tcli-packages"
+
+[[build.copy]]
+source = "package/CHANGELOG.md"
+target = "CHANGELOG.md"
+
+[[build.copy]]
+source = "package/LICENSE"
+target = "LICENSE"
+
+[[build.copy]]
+source = "package/REVIEW.md"
+target = "REVIEW.md"
+
+[[build.copy]]
+source = "bin/Release/netstandard2.1/ArenaGauntlet.dll"
+target = "BepInEx/plugins/ArenaGauntlet/ArenaGauntlet.dll"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["riskofrain2"]
+
+[publish.categories]
+riskofrain2 = ["ai-generated", "maps", "gamemodes"]
+

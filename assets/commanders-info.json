@@ -1,0 +1,21 @@
+{
+  "authoring": "scripts/build_commander_insignia.py",
+  "originalGeometry": true,
+  "detailLevels": 1,
+  "parts": [
+    "standard-brass",
+    "banner-ivory",
+    "banner-brass",
+    "rank1-energy",
+    "rank2-energy",
+    "rank3-energy",
+    "rank4-energy",
+    "rank5-energy",
+    "sigil-brass",
+    "sigil-energy"
+  ],
+  "triangles": 5578,
+  "standardHeight": 2.26,
+  "bannerWidth": 0.88,
+  "sigilRadius": 0.27
+}

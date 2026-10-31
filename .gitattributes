@@ -1,0 +1,2 @@
+# Store every file byte-for-byte; binary assets must not get line-ending conversion.
+* -text

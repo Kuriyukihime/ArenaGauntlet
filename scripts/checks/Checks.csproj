@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="EconomyAudit.cs" />
+    <Compile Include="NetworkAudit.cs" />
+    <Compile Include="ShopAudit.cs" />
+    <Compile Include="ExperienceAudit.cs" />
+    <Compile Include="DropAudit.cs" />
+    <Compile Include="ItemRunAudit.cs" />
+    <Compile Include="StarterAudit.cs" />
+    <Compile Include="HordeAudit.cs" />
+    <Compile Include="CompanyDamageAudit.cs" />
+    <Compile Include="MetaAudit.cs" />
+    <Compile Include="../../src/GauntletMetaPolicy.cs" Link="GauntletMetaPolicy.cs" />
+    <Compile Include="../../src/GauntletCompanyDamagePolicy.cs" Link="GauntletCompanyDamagePolicy.cs" />
+    <Compile Include="../../src/GauntletHordeRewards.cs" Link="GauntletHordeRewards.cs" />
+    <Compile Include="../../src/GauntletStarterPlan.cs" Link="GauntletStarterPlan.cs" />
+    <Compile Include="../../src/GauntletDropBudget.cs" Link="GauntletDropBudget.cs" />
+    <Compile Include="../../src/GauntletExperiencePolicy.cs" Link="GauntletExperiencePolicy.cs" />
+    <Compile Include="../../src/GauntletShopPlan.cs" Link="GauntletShopPlan.cs" />
+    <Compile Include="../../src/GauntletShopPricing.cs" Link="GauntletShopPricing.cs" />
+    <Compile Include="../../src/GauntletNetworkPolicy.cs" Link="GauntletNetworkPolicy.cs" />
+    <Compile Include="../../src/GauntletEconomyPolicy.cs" Link="GauntletEconomyPolicy.cs" />
+    <Compile Include="../../src/GauntletArrivalGate.cs" Link="GauntletArrivalGate.cs" />
+    <Compile Include="../../src/GauntletCurrencyPolicy.cs" Link="GauntletCurrencyPolicy.cs" />
+    <Compile Include="../../src/GauntletLootPolicy.cs" Link="GauntletLootPolicy.cs" />
+    <Compile Include="../../src/GauntletBossPolicy.cs" Link="GauntletBossPolicy.cs" />
+    <Compile Include="../../src/GauntletCommandRoster.cs" Link="GauntletCommandRoster.cs" />
+    <Compile Include="../../src/GauntletEncounterGate.cs" Link="GauntletEncounterGate.cs" />
+    <Compile Include="../../src/GauntletPlan.cs" Link="GauntletPlan.cs" />
+    <Compile Include="../../src/GauntletBalance.cs" Link="GauntletBalance.cs" />
+    <Compile Include="../../src/GauntletQuotaLedger.cs" Link="GauntletQuotaLedger.cs" />
+    <Compile Include="../../src/FortressState.cs" Link="FortressState.cs" />
+    <Compile Include="../../src/FortressArchitectureData.cs" Link="FortressArchitectureData.cs" />
+    <Compile Include="../../src/FortressMenuPlan.cs" Link="FortressMenuPlan.cs" />
+    <Compile Include="../../src/GauntletHordeMix.cs" Link="GauntletHordeMix.cs" />
+    <Compile Include="../../src/GauntletEnemyRoles.cs" Link="GauntletEnemyRoles.cs" />
+    <Compile Include="../../src/GauntletRoutePlan.cs" Link="GauntletRoutePlan.cs" />
+    <Compile Include="../../src/FortressBattlefieldGrid.cs" Link="FortressBattlefieldGrid.cs" />
+  </ItemGroup>
+</Project>

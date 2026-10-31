@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework><OutputType>Exe</OutputType>
+    <GameManaged>X:/SteamLibrary/steamapps/common/Risk of Rain 2/Risk of Rain 2_Data/Managed</GameManaged>
+    <PluginRoot>$(APPDATA)/Thunderstore Mod Manager/DataFolder/RiskOfRain2/profiles/My Profile/BepInEx/plugins</PluginRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/GauntletNetworkPolicy.cs" Link="GauntletNetworkPolicy.cs" />
+    <Reference Include="ArenaGauntlet"><HintPath>../../bin/Release/netstandard2.1/ArenaGauntlet.dll</HintPath></Reference>
+    <Reference Include="$(GameManaged)/UnityEngine*.dll" />
+    <Reference Include="$(GameManaged)/com.unity.multiplayer-hlapi.Runtime.dll" />
+    <Reference Include="$(GameManaged)/RoR2.dll" />
+    <Reference Include="$(PluginRoot)/RiskofThunder-R2API_Networking/R2API.Networking/R2API.Networking.dll" />
+  </ItemGroup>
+</Project>

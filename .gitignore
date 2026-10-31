@@ -1,0 +1,10 @@
+bin/
+obj/
+.build/
+.boost/
+.vs/
+dist/
+__pycache__/
+# Working notes stay local.
+AGENTS.md
+docs/

@@ -1,0 +1,30 @@
+{
+  "authoring": "scripts/build_colosseum.py",
+  "originalGeometry": true,
+  "style": "Hellenic / Doric sanctuary stadium",
+  "detailLevels": 1,
+  "parts": 16,
+  "triangles": 406980,
+  "vertices": 752692,
+  "combatRadius": 178,
+  "architectureRadius": [
+    179,
+    242
+  ],
+  "doricColumns": 126,
+  "flutesPerColumn": 20,
+  "pedimentedGateways": 4,
+  "seatingRows": 18,
+  "radialAisles": 12,
+  "grassBeds": 12,
+  "merchantAlcoves": 5,
+  "materialNames": [
+    "limestone",
+    "marble",
+    "paving",
+    "basalt",
+    "roofstone",
+    "grass"
+  ],
+  "modelSha256": "06e6ffe92c5b0f8a79b46c2e7d90784237d5f96fee45e782ea8890093810fbb2"
+}

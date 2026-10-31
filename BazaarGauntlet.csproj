@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>ArenaGauntlet</AssemblyName>
+    <RootNamespace>BazaarGauntlet</RootNamespace>
+    <Version>1.0.2</Version>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Deterministic>true</Deterministic>
+    <GameRoot Condition="'$(GameRoot)' == ''">X:\SteamLibrary\steamapps\common\Risk of Rain 2</GameRoot>
+    <ModProfile Condition="'$(ModProfile)' == ''">$(APPDATA)\Thunderstore Mod Manager\DataFolder\RiskOfRain2\profiles\My Profile</ModProfile>
+    <GameManaged>$(GameRoot)\Risk of Rain 2_Data\Managed</GameManaged>
+    <PluginRoot>$(ModProfile)\BepInEx\plugins</PluginRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="assets\*.meshbin" />
+    <EmbeddedResource Include="assets\arena_*.png" />
+    <EmbeddedResource Include="assets\arena_cosmetics*.json" />
+    <EmbeddedResource Include="assets\castle_*.png" Exclude="assets\castle_battlefield_ground.png" />
+    <Compile Include="src\**\*.cs" />
+    <Reference Include="$(GameManaged)\RoR2.dll" Private="false" />
+    <Reference Include="$(GameManaged)\UnityEngine*.dll" Private="false" />
+    <Reference Include="$(GameManaged)\Unity.Addressables.dll" Private="false" />
+    <Reference Include="$(GameManaged)\Unity.ResourceManager.dll" Private="false" />
+    <Reference Include="$(GameManaged)\Unity.TextMeshPro.dll" Private="false" />
+    <Reference Include="$(GameManaged)\HGUnityUtils.dll" Private="false" />
+    <Reference Include="$(GameManaged)\HGCSharpUtils.dll" Private="false" />
+    <Reference Include="$(GameManaged)\com.unity.multiplayer-hlapi.Runtime.dll" Private="false" />
+    <Reference Include="$(ModProfile)\BepInEx\core\BepInEx.dll" Private="false" />
+    <Reference Include="$(ModProfile)\BepInEx\core\MonoMod.RuntimeDetour.dll" Private="false" />
+    <Reference Include="$(ModProfile)\BepInEx\core\MonoMod.Utils.dll" Private="false" />
+    <Reference Include="$(PluginRoot)\MMHOOK\MMHOOK_RoR2.dll" Private="false" />
+    <Reference Include="$(PluginRoot)\RiskofThunder-R2API_Core\R2API.Core\R2API.Core.dll" Private="false" />
+    <Reference Include="$(PluginRoot)\RiskofThunder-R2API_ContentManagement\R2API.ContentManagement\R2API.ContentManagement.dll" Private="false" />
+    <Reference Include="$(PluginRoot)\RiskofThunder-R2API_Prefab\R2API.Prefab\R2API.Prefab.dll" Private="false" />
+    <Reference Include="$(PluginRoot)\RiskofThunder-R2API_Language\R2API.Language\R2API.Language.dll" Private="false" />
+    <Reference Include="$(PluginRoot)\RiskofThunder-R2API_Networking\R2API.Networking\R2API.Networking.dll" Private="false" />
+    <Reference Include="$(PluginRoot)\RiskofThunder-R2API_RecalculateStats\R2API.RecalculateStats\R2API.RecalculateStats.dll" Private="false" />
+    <Reference Include="$(PluginRoot)\RiskofThunder-RoR2BepInExPack\RoR2BepInExPack\RoR2BepInExPack.dll" Private="false" />
+    <Reference Include="$(PluginRoot)\Rune580-Risk_Of_Options\RiskOfOptions\RiskOfOptions.dll" Private="false" />
+  </ItemGroup>
+</Project>
